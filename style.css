@@ -163,9 +163,14 @@ main {
     color: var(--accent-color);
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 700px) {
     .flex {
         flex-direction:column;
+    }
+    .cards-container {
+      align-items: center;
+      justify-content: center;
+      /* padding-left: 1000px; */
     }
 }
 
